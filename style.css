@@ -39,7 +39,30 @@ nav a {
     text-align: center;
     font-weight: bold;
 }
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
 
-body {
+.about1 {
+    color: #fff;
+    padding: 0 1.5rem;
+}
+
+.work1 {
+    color: #fff;
+    padding: 0 1.5rem;
+}
+
+.contact {
+    text-align: center;
+    color: #fff;
+    padding: 0 1.5rem;
+    background-color: #000000;
+}
+
+main {
     background-color: gray;
 }
